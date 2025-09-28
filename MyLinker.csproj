@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Configuración básica del proyecto -->
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- Datos para NuGet -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>MyLinker</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>MEMPHIS YOMAEL NUÑEZ CRUZ</Authors>
+		<Company>MySoft</Company>
+		<Description>Librería de enlace de objetos dinámicos en C#.
+		Mappea automaticamente propiedades de objetos y resuelve diferencias de tipos inteligentemente
+		</Description>
+		<PackageTags>csharp;linker;mapping;utils</PackageTags>
+
+		<!-- Opcional pero recomendado -->
+		<RepositoryUrl>https://github.com/tuusuario/MyLinker</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/tuusuario/MyLinker</PackageProjectUrl>
+		<LicenseExpression>MIT</LicenseExpression>
+	</PropertyGroup>
+
+</Project>
