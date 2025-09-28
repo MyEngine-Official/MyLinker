@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\InstitutoBiblico\\MyLinker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{715B9110-11FA-4C08-81DE-3A70AAF2E08F}|MyLinker.csproj|c:\\users\\usuario\\desktop\\institutobiblico\\mylinker\\linker\\linker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{715B9110-11FA-4C08-81DE-3A70AAF2E08F}|MyLinker.csproj|solutionrelative:linker\\linker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E53AEB67-6157-4876-7168-77BD8CE4D1CB}|MyLinker.csproj|c:\\users\\usuario\\desktop\\institutobiblico\\mylinker\\linker\\linker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53AEB67-6157-4876-7168-77BD8CE4D1CB}|MyLinker.csproj|solutionrelative:linker\\linker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{715B9110-11FA-4C08-81DE-3A70AAF2E08F}|MyLinker.csproj|c:\\users\\usuario\\desktop\\institutobiblico\\mylinker\\mylinker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{715B9110-11FA-4C08-81DE-3A70AAF2E08F}|MyLinker.csproj|solutionrelative:mylinker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E53AEB67-6157-4876-7168-77BD8CE4D1CB}|MyLinker.csproj|c:\\users\\usuario\\desktop\\institutobiblico\\mylinker\\mylinker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E53AEB67-6157-4876-7168-77BD8CE4D1CB}|MyLinker.csproj|solutionrelative:mylinker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyLinker",
+              "Title": "MyLinker.csproj",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\InstitutoBiblico\\MyLinker\\MyLinker.csproj",
               "RelativeDocumentMoniker": "MyLinker.csproj",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\InstitutoBiblico\\MyLinker\\MyLinker.csproj",
               "RelativeToolTip": "MyLinker.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-28T00:37:59.5Z",
               "EditorCaption": ""
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Linker\\Linker.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\InstitutoBiblico\\MyLinker\\Linker\\Linker.cs",
               "RelativeToolTip": "Linker\\Linker.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T23:18:30.887Z",
               "EditorCaption": ""

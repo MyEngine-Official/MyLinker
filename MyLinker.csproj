@@ -18,8 +18,8 @@
 		<PackageTags>csharp;linker;mapping;utils</PackageTags>
 
 		<!-- Opcional pero recomendado -->
-		<RepositoryUrl>https://github.com/tuusuario/MyLinker</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/tuusuario/MyLinker</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/MyEngine-Official/MyLinker.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/MyEngine-Official/MyLinker.git</PackageProjectUrl>
 		<LicenseExpression>MIT</LicenseExpression>
 	</PropertyGroup>
 
