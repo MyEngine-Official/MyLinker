@@ -155,3 +155,11 @@ public static EX MapObjects(
 ## 📜 Licencia
 
 Este proyecto está bajo la licencia **MIT**. Puedes usarlo libremente en proyectos personales o comerciales.  
+
+---
+
+## 🚢 Publicación automática en NuGet
+
+- El flujo `.github/workflows/publish-nuget.yml` compila y empaqueta el proyecto en cada `pull_request` hacia `main`.
+- En cada `push` a `main` publica automáticamente el paquete en NuGet usando el secreto `NUGET_API_KEY`.
+- Configura el secreto en *Settings → Secrets and variables → Actions* con tu API Key de NuGet antes de hacer merge a `main`.
