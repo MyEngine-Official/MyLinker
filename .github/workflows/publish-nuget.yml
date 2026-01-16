@@ -25,6 +25,14 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
 
+      - name: Validate NuGet API key
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          if [ -z "${{ secrets.NUGET_API_KEY }}" ]; then
+            echo "::error::NUGET_API_KEY secret is not configured."
+            exit 1
+          fi
+
       - name: Pack
         run: dotnet pack --configuration Release --no-build -o ./artifacts
 
@@ -32,4 +40,13 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-        run: dotnet nuget push "./artifacts/*.nupkg" --api-key "$NUGET_API_KEY" --source https://api.nuget.org/v3/index.json --skip-duplicate
+        run: |
+          shopt -s nullglob
+          packages=(./artifacts/*.nupkg)
+          if [ ${#packages[@]} -eq 0 ]; then
+            echo "::error::No packages found to publish."
+            exit 1
+          fi
+          for pkg in "${packages[@]}"; do
+            dotnet nuget push "$pkg" --api-key "$NUGET_API_KEY" --source https://api.nuget.org/v3/index.json --skip-duplicate
+          done
